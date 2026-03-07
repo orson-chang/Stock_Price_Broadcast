@@ -9,25 +9,6 @@
 
 股票代碼/股價/行權價_若有/下次買點/下次賣點
 
-要先研究盤前股票價格在哪裡獲取  只能用我的IBKR API嗎? 這樣我必須持續登錄在IBKR TWS中，不方便。
-
-project/
-│
-├─ main.py
-├─ config.py
-│
-├─ data/
-│   └─ spider_web.ods
-│
-├─ market_data/
-│   ├─ alpha_vantage.py
-│   ├─ ib_gateway.py
-│
-├─ strategy/
-│   └─ spiderweb.py
-│
-└─ notification/
-    └─ line_push.py
 
 ```
 Project/
