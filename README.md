@@ -1,5 +1,5 @@
 # Stock_Price_Broadcast
-盤前傳送美股持股報價
+盤前傳送美股持股報價\n
 持股標的存在spider_web.ods
 打開ODS檔案，找出持股標的
 每個一個小時，推送以下資訊
