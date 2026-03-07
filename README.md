@@ -28,3 +28,17 @@ project/
 │
 └─ notification/
     └─ line_push.py
+
+
+Project/
+├── main.py
+├── config.py
+├── data/
+│   └── spider_web.ods
+├── market_data/
+│   ├── alpha_vantage.py
+│   └── ib_gateway.py
+├── strategy/
+│   └── spiderweb.py
+└── notification/
+    └── line_push.py
