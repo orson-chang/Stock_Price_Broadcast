@@ -10,9 +10,13 @@
     股票代碼/股價/行權價_若有/下次買點/下次賣點
 
 股價&選擇權 查詢機，透過Line訊息傳送實現
+
     Line APP接收到字串 " Stock "
+    
     Line 回應 " please provide Stock index"
+    
     我回應 "NVDA"
+    
     Line回應 " NVDA stock now is XXX "  XXX為回傳的股價
 ```
 Project/
