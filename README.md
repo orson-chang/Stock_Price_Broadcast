@@ -9,6 +9,31 @@ This project implements a LINE webhook bot for stock quote lookup.
 - Use Alpha Vantage `GLOBAL_QUOTE` for v1 stock prices
 - Keep the architecture ready for future IBKR integration
 
+Line APP接收到字串 " Stock "
+ 
+Line 回應 " please provide Stock index"
+ 
+我回應 "NVDA"
+ 
+Line回應 " NVDA stock now is XXX "  XXX為回傳的股價
+
+Line APP接收到字串 "OP "
+ 
+Line 回應 " please provide stock index/MMMDD/strike/C or P" # where MMM=月份, DD=日期, strike=合約行權價 , C for Call P for Put
+ 
+我回應 "NVDA/Mar13/175/P" #(舉例)
+ 
+Line回應 " Provide 7 contracts of NVDA/Mar13/175/P " 
+        " strike 175+3rank premium ask/bid = x7/y7 , delta = z7"   
+        " strike 175+2rank premium ask/bid = x6/y6 , delta = z6"
+        " strike 175+1rank premium ask/bid = x5/y5 , delta = z5"
+        " strike 175+0rank premium ask/bid = x4/y4 , delta = z4"   
+        " strike 175-1rank premium ask/bid = x3/y3 , delta = z3"
+        " strike 175-2rank premium ask/bid = x2/y2 , delta = z2"
+        " strike 175-3rank premium ask/bid = x1/y1 , delta = z1"
+        # delta為該合約的選擇權希臘字母 delta
+由於ib查詢合約名稱與合約ask/bid/delta的架構尚未完成，先用假資料代替
+ 
 ## Project Layout
 
 ```text
