@@ -1,0 +1,1 @@
+"""Future bear spread strategy."""

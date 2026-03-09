@@ -1,0 +1,17 @@
+
+2026-03-09 00:26:51,575 INFO webhook_received source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=Stock
+2026-03-09 00:26:51,576 INFO command=stock source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d
+2026-03-09 00:27:06,737 INFO webhook_received source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=NVDA
+2026-03-09 00:27:07,267 INFO quote_status=success source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d ticker=NVDA price=177.82 provider=alpha_vantage
+2026-03-09 00:27:31,817 INFO webhook_received source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=AAPL
+2026-03-09 00:27:31,821 INFO command=help source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=AAPL
+2026-03-09 00:27:57,191 INFO webhook_received source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=Stock
+2026-03-09 00:27:57,191 INFO command=stock source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d
+2026-03-09 00:28:02,541 INFO webhook_received source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=AAPL
+2026-03-09 00:28:02,831 INFO quote_status=success source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d ticker=AAPL price=257.46 provider=alpha_vantage
+2026-03-09 00:29:53,580 INFO webhook_received source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=Op
+2026-03-09 00:29:53,580 INFO command=help source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=Op
+2026-03-09 00:29:59,212 INFO webhook_received source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=Stock
+2026-03-09 00:29:59,212 INFO command=stock source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d
+2026-03-09 00:30:08,526 INFO webhook_received source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d text=Tsm
+2026-03-09 00:30:08,812 INFO quote_status=success source_type=user source_id=user:U7073dfdab7057f8fb14ad62fc3f77c7d ticker=TSM price=338.89 provider=alpha_vantage

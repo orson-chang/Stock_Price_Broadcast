@@ -1,0 +1,1 @@
+"""Future bull spread strategy."""

@@ -1,0 +1,1 @@
+"""Future covered call strategy."""
